@@ -1,0 +1,163 @@
+body.ownlist {
+    background-size: 100% auto;
+}
+
+.header .header-title {
+    text-indent: unset;
+    color: transparent;
+}
+
+.list-container {
+    background-color: unset;
+    border: unset;
+}
+
+.cover-block {
+    width: unset;
+    margin-bottom: 10px;
+}
+
+.cover-block .image-container {
+    padding-top: unset;
+    width: 1058px;
+}
+
+.cover-block .image-container img {
+    max-width: 1058px;
+    border-radius: 15px;
+}
+
+.status-menu-container {
+    border-radius: 15px;
+}
+
+.status-menu-container.fixed {
+    border-radius: unset;
+  }
+
+.list-unit {
+    width: unset;
+}
+
+.list-unit .list-status-title {
+    width: 1058px;
+    border-radius: 15px 15px 0 0;
+}
+
+.list-unit .list-status-title .text {
+    font-family: Pacifico, tahoma, verdana, arial, sans-serif;
+    font-weight: normal;
+    width: unset;
+}
+
+.list-unit .list-stats {
+    width: 1058px;
+}
+
+.list-table {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.list-table > tbody:nth-of-type(2n+1) {
+    background-color: unset;
+}
+
+tbody[class*="list-item"]:hover, .list-table tbody:nth-of-type(2n+1):hover {
+    transition-property: background-color, box-shadow;
+    transition-duration: 2s;
+    -webkit-transition-property: background-color, box-shadow;
+    -webkit-transition-duration: 2s;
+    background-color: rgba(231,236,240,.2) !important;
+    box-shadow: 0 0 20px #E7ECF0;
+}
+
+.list-table .list-table-data .data.status.watching {
+    background-color: #8eba43;
+}
+
+.list-table .list-table-data .data.status.reading {
+    background-color: #88a550;
+}
+
+.list-table .list-table-data .data.status.plantowatch {
+    background-color: #68829e;
+}
+
+.list-table .list-table-data .data.status.plantoread {
+    background-color: #a3a599;
+}
+
+.list-table .list-table-data .data.status.completed {
+    background-color: #089ed9;
+}
+
+.list-table .list-table-data .data.status.onhold {
+    background-color: #f9dc24;
+  }
+  
+  .list-table .list-table-data .data.status.dropped {
+    background-color: #505160;
+}
+
+#footer-block {
+    padding: 10px 0;
+    background-color: #4065ba;
+}
+
+#copyright {
+    padding-top: 1px;
+    color: #ffffff;
+}
+
+#advanced-options {
+    border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body.ownlist {
+        background: url(https://lumarel.github.io/MALlistcontent/bg_stars.svg);
+    }
+
+    a {
+        color: #0082b8;
+    }
+
+    .list-menu-float {
+        border: #444 1px solid;
+    }
+
+    .list-menu-float .icon-menu {
+        background-color: #111;
+    }
+    
+    .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+        border-top: #444 1px solid;
+    }
+
+    .status-menu-container {
+        background-color: #111;
+        border-bottom: #444 1px solid;
+    }
+
+    .list-table {
+        background-color: rgba(122,120,140,0.7);
+        border: #444 1px solid;
+    }
+
+    .list-table .list-table-header .header-title {
+        background: #bbb url("/img/pc/ownlist/bar-table-header.png") no-repeat right 7px / 1px 22px;
+        border-bottom: #444 1px solid;
+    }
+    
+    .list-table .list-table-data .data {
+        border-bottom: #444 1px solid;
+    }
+
+    tbody[class*="list-item"]:hover, .list-table tbody:nth-of-type(2n+1):hover {
+        background-color: rgba(0,0,0,.5) !important;
+    }
+
+    #advanced-options {
+        background-color: #bbb;
+    }
+}
