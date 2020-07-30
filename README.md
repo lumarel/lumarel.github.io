@@ -1,3 +1,3 @@
 # lumarel.github.io
 
-## Personal content for external usage 
+## Personal content for external usage
