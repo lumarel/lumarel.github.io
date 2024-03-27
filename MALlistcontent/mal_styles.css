@@ -115,7 +115,7 @@ tbody[class*="list-item"]:hover, .list-table tbody:nth-of-type(2n+1):hover {
 
 @media (prefers-color-scheme: dark) {
     body.ownlist {
-        background: url(https://lumarel.github.io/MALlistcontent/bg_stars.svg);
+        background: url(https://gh.clmdn.eu/MALlistcontent/bg_stars.svg);
     }
 
     a {
